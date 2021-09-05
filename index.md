@@ -23,7 +23,7 @@
 <div class="container-fluid" style="padding: 0;">
     <nav id="navMenu" class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark"
          style="background-color: #1A1A1A; height: 60px;">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.md">
             <img id="mainLogo" style="position: absolute; top: 2px; left: 18px;" src="/imgs/slogan3.png" height="52px"/>
         </a>
 
