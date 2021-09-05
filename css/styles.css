@@ -1,0 +1,28 @@
+*{margin:0;padding:0;border:0;list-style:none;outline:none;} /* Fazendo reset */
+body{font:normal 14px Tahoma, Arial, sans-serif;color:#333;} /* Fonte normal tamanho 14 tenho Tahoma como fonte primaria */
+a{text-decoration:none;} /* Links sem efeitos */
+
+.navTitle {
+    font-size:0;
+    transition: all 600ms;
+}
+
+#navbarsverse ul li a:hover .navTitle {
+    font-size:14px;
+    margin-left:14px;
+}
+
+@media screen and (max-width: 820px) {
+    #userProfileImg{
+        top: 70px;
+    }
+    #userName{
+        margin-left: 10px;
+    }
+    #userFormaction{
+        margin-left: 10px;
+    }
+    .btn-group .btn-dark{
+        font-size: 10pt;
+    }
+}

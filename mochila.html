@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js"></script>
+
+    <script type="text/javascript"
+            src="https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+	<link rel="shortcut icon" href="icons/favicon.ico" />
+
+    <title>Oséias Pereira</title>
+
+    <style>
+        .carousel-3d-slide {
+            height: auto !important;
+            background-color: rgba(0, 0, 0, 0.25) !important;
+        }
+    </style>
+    <script>
+        window.onload = function f() {
+            new Vue({
+                el: '#carousel',
+                data: {
+                    slides: 7
+                },
+                components: {
+                    'carousel-3d': Carousel3d.Carousel3d,
+                    'slide': Carousel3d.Slide
+                }
+            })
+            new Vue({
+                el: '#carousel1',
+                data: {
+                    slides: 7
+                },
+                components: {
+                    'carousel-3d': Carousel3d.Carousel3d,
+                    'slide': Carousel3d.Slide
+                }
+            });
+            new Vue({
+                el: '#carousel2',
+                data: {
+                    slides: 7
+                },
+                components: {
+                    'carousel-3d': Carousel3d.Carousel3d,
+                    'slide': Carousel3d.Slide
+                }
+            });
+            new Vue({
+                el: '#carousel3',
+                data: {
+                    slides: 7
+                },
+                components: {
+                    'carousel-3d': Carousel3d.Carousel3d,
+                    'slide': Carousel3d.Slide
+                }
+            });
+            new Vue({
+                el: '#carousel4',
+                data: {
+                    slides: 7
+                },
+                components: {
+                    'carousel-3d': Carousel3d.Carousel3d,
+                    'slide': Carousel3d.Slide
+                }
+            });
+        }
+    </script>
+
+</head>
+<body background="imgs/bg15.jpg"
+      style="background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+
+<div class="container-fluid">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark"
+         style="background-color: #58aaff; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; border: 0; border-bottom: 2px; border-style: solid; border-color: rgba(32,46,98,0.91);">
+        <a class="navbar-brand" href="index.html">
+            <img style="position: absolute; top: 0px; left: 18px;" src="SverseLogo/sv-logo%201.png" width="54px"
+                 height="54px"/>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsverse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsverse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i><span class="navTitle">Sobre Mim</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mochila.html"><i class="fas fa-business-time"></i><span class="navTitle">Habilidades</span></a>
+					<!--Aqui será um link para uma pág. com minhas habilidades separadas por suas respectivas áreas.-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mural.html"><i class="fas fa-edit"></i><span class="navTitle">Fale Comigo</span></a>
+					<!--Aqui será um link para uma pág. com um form de email-submit.-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""><i class="fas fa-bell"></i><span class="navTitle">Me Acompanhe</span></a>
+					<!--Aqui será um link para uma pág. com meus projetos, pesquisas, notícias e hobbies, bem como planejamentos futuros.-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""><i class="fas fa-question-circle"></i><span class="navTitle">Ajuda</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navdropdown" role="button" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navdropdown"
+                         style="margin-top: 10px;">
+                        <h6 class="dropdown-header">Suas Opções</h6>
+                        <a class="dropdown-item" href="#">Configurações</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Sair</a>
+                    </div>
+                </li>
+            </ul>
+        </div>	
+    </nav>
+
+    <!--Mochila-->
+
+    <div class="container">
+        <div id="linha1" class="row" style="min-height: 45vh;">
+            <div class="col-sm-12 col-md-6" style="background-color: rgba(0,92,191,0); padding: 0; padding-top: 16px;">
+                <!--Lista 1-->
+                <div class="card text-white mb-3"
+                     style="height: 100%; border-radius: 0; background:rgb(168,168,170); border-top-left-radius: 32px; border-color: #404040; border-width: 2px; border-right-width: 1px; border-bottom-width: 1px;">
+                    <div style="position:absolute; background: #57D3FD; right: 0; bottom: 0; border-top-left-radius: 100%; height: 40px; width: 40px; border-style: solid; border-color: #404040; border-width: 2px; border-right-width: 0px; border-bottom-width: 0px;">
+                        <i class="fas fa-plus" style="position: absolute; right: 8px; bottom: 8px;"></i></div>
+                    <h4 class="text-dark" style="font-size: 12pt; position: absolute; bottom: 0; font-weight: bold; text-align: center; width: 100%;">Turmas</h4>
+                    <div id="carousel1" style="height: 100%;">
+                        <carousel-3d :autoplay="false" :autoplay-timeout="2400" style="height: 200px; margin: 0; margin-top: 32px; border-style: solid;">
+                            <slide :index="0" style="border-radius: 24px; border-width: 0px;"></slide>
+                            <slide :index="0" style="border-radius: 24px; border-width: 0px;"></slide>
+                            <slide :index="0" style="height: 200px; width: 240px; margin-left: 20px; border-radius: 24px; border-width: 2px;">
+                                <a href="#" style="padding: 8px; background: rgba(20,20,20,0.61); border-style: solid; border-right: 0; border-width: 1px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; position: absolute; right: 0; top: 16px;">
+                                    <i class="fas fa-ellipsis-v"></i></a>
+                                <a href="#">
+                                    <p style="text-shadow: rgba(24,24,24,0.69) 1px 1px 1px; position: absolute; width: 100%; text-align: center; height: 100%; top: 40%; bottom: 50%; font-size: 20pt; font-weight: bold; color: #fff;">Info4V</p>
+                                </a>
+                                <img src="https://image.freepik.com/free-photo/september-1-wooden-calendar-among-supplies-study-blue-background_79087-967.jpg"/></slide>
+                            <slide :index="1" style="height: 200px; width: 240px; margin-left: 20px; border-radius: 24px; border-width: 2px;">
+                                <a href="#" style="padding: 8px; background: rgba(20,20,20,0.61); border-style: solid; border-right: 0; border-width: 1px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; position: absolute; right: 0; top: 16px;">
+                                    <i class="fas fa-ellipsis-v"></i></a>
+                                <a href="#">
+                                    <p style="text-shadow: rgba(24,24,24,0.69) 1px 1px 1px; position: absolute; width: 100%; text-align: center; height: 100%; top: 40%; bottom: 50%; font-size: 20pt; font-weight: bold; color: #fff;">C&T - UFRN</p>
+                                </a>
+                                <img src="https://ujc.org.br/wp-content/uploads/2018/01/cientec.jpg"/></slide>
+                        </carousel-3d>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6" style="background-color: rgba(0,92,191,0); padding: 0; padding-top: 16px;">
+                <!--Lista 2-->
+                <div class="card text-white mb-3"
+                     style="height: 100%;  border-radius: 0; background:rgb(218,218,220); border-top-right-radius: 32px; border-color: #404040; border-width: 2px; border-left-width: 1px; border-bottom-width: 1px;">
+                    <div style="position:absolute; background: #f7745a; left: 0; bottom: 0; border-top-right-radius: 100%; height: 40px; width: 40px; border-style: solid; border-color: #404040; border-width: 2px; border-left-width: 0px; border-bottom-width: 0px;">
+                        <i class="fas fa-clock" style="position: absolute; left: 8px; bottom: 8px;"></i></div>
+                    <h4 class="text-dark" style="font-size: 12pt; position: absolute; bottom: 0; font-weight: bold; text-align: center; width: 100%;">Grupos</h4>
+                    <div id="carousel2" style="height: 100%;">
+                        <carousel-3d :autoplay="false" :autoplay-timeout="2400" style="margin: 0; margin-top: 32px;">
+                            <slide :index="0" style="border-radius: 24px; border-width: 0px;"></slide>
+                            <slide :index="0" style="border-radius: 24px; border-width: 0px;"></slide>
+                            <slide :index="0" style="border-radius: 24px; border-width: 2px;">
+                                <a href="#" style="padding: 8px; background: rgba(20,20,20,0.61); border-style: solid; border-right: 0; border-width: 1px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; position: absolute; right: 0; top: 16px;">
+                                    <i class="fas fa-ellipsis-v"></i></a>
+                                <a href="#">
+                                    <p style="text-shadow: rgba(24,24,24,0.69) 1px 1px 1px; position: absolute; width: 100%; text-align: center; height: 100%; top: 40%; bottom: 50%; font-size: 20pt; font-weight: bold; color: #fff;">Enem 2020</p>
+                                </a>
+                                <img src="https://image.freepik.com/free-photo/copy-spaced-background-with-studying-items_23-2147864599.jpg"/></slide>
+                            <slide :index="1" style="border-radius: 24px; border-width: 2px;">
+                                <a href="#" style="padding: 8px; background: rgba(20,20,20,0.61); border-style: solid; border-right: 0; border-width: 1px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; position: absolute; right: 0; top: 16px;">
+                                    <i class="fas fa-ellipsis-v"></i></a>
+                                <a href="#">
+                                    <p style="text-shadow: rgba(24,24,24,0.69) 1px 1px 1px; position: absolute; width: 100%; text-align: center; height: 100%; top: 40%; bottom: 50%; font-size: 20pt; font-weight: bold; color: #fff;">Nome do Container</p>
+                                </a>
+                                <img src="https://unsplash.it/400/300?image=456"/></slide>
+                        </carousel-3d>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="linha2" class="row" style="min-height: 45vh;">
+            <div class="col-sm-12 col-md-6 "
+                 style="background-color: rgba(0,92,191,0); padding: 0; padding-bottom: 16px;">
+                <!--Lista 3-->
+                <div class="card text-white mb-3"
+                     style="height: 100%;  border-radius: 0; background: rgb(218,218,220); border-bottom-left-radius: 32px; border-color: #404040; border-width: 2px; border-right-width: 1px; border-top-width: 1px;">
+                    <div style="position:absolute; background: #6eee7b; right: 0; top: 0; border-bottom-left-radius: 100%; height: 40px; width: 40px; border-style: solid; border-color: #404040; border-width: 2px; border-right-width: 0px; border-top-width: 0px;">
+                        <i class="fas fa-clock" style="position: absolute; right: 8px; top: 8px;"></i></div>
+                    <h4 class="text-dark" style="font-size: 12pt; position: absolute; bottom: 0; font-weight: bold; text-align: center; width: 100%;">Trabalhos em Grupo</h4>
+                    <div id="carousel3" style="height: 100%;">
+                        <carousel-3d :autoplay="false" :autoplay-timeout="2400" style="margin: 0; margin-top: 32px;">
+                            <slide :index="0" style="border-radius: 24px; border-width: 0px;"></slide>
+                            <slide :index="0" style="border-radius: 24px; border-width: 0px;"></slide>
+                            <slide :index="0" style="border-radius: 24px; border-width: 2px;">
+                                <a href="#" style="padding: 8px; background: rgba(20,20,20,0.61); border-style: solid; border-right: 0; border-width: 1px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; position: absolute; right: 0; top: 16px;">
+                                    <i class="fas fa-ellipsis-v"></i></a>
+                                <a href="#">
+                                    <p style="text-shadow: rgba(24,24,24,0.69) 1px 1px 1px; position: absolute; width: 100%; text-align: center; height: 100%; top: 40%; bottom: 50%; font-size: 20pt; font-weight: bold; color: #fff;">Nome do Container</p>
+                                </a>
+                                <img src="https://res.cloudinary.com/ameo/image/upload/v1498843587/kTcPaQR_x77hor.jpg"/></slide>
+                            <slide :index="1" style="border-radius: 24px; border-width: 2px;">
+                                <a href="#" style="padding: 8px; background: rgba(20,20,20,0.61); border-style: solid; border-right: 0; border-width: 1px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; position: absolute; right: 0; top: 16px;">
+                                    <i class="fas fa-ellipsis-v"></i></a>
+                                <a href="#">
+                                    <p style="text-shadow: rgba(24,24,24,0.69) 1px 1px 1px; position: absolute; width: 100%; text-align: center; height: 100%; top: 40%; bottom: 50%; font-size: 20pt; font-weight: bold; color: #fff;">Nome do Container</p>
+                                </a>
+                                <img src="https://unsplash.it/400/300?image=456"/></slide>
+                        </carousel-3d>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6"
+                 style="background-color: rgba(0,92,191,0);  padding: 0; padding-bottom: 16px;">
+                <!--Lista 4-->
+                <div class="card text-white mb-3"
+                     style="height: 100%;  border-radius: 0; background: rgb(163,163,165); border-bottom-right-radius: 32px; border-color: #404040; border-width: 2px; border-left-width: 1px; border-top-width: 1px;">
+                    <div style="position:absolute; background: #eecb6a; left: 0; top:0; border-bottom-right-radius: 100%; height: 40px; width: 40px; border-style: solid; border-color: #404040; border-width: 2px; border-left-width: 0px; border-top-width: 0px;">
+                        <i class="fas fa-clock" style="position: absolute; left: 8px; top: 8px;"></i></div>
+                    <h4 class="text-dark" style="font-size: 12pt; position: absolute; bottom: 0; font-weight: bold; text-align: center; width: 100%;">Estudos Pessoais</h4>
+                    <div id="carousel4" style="height: 100%;">
+                        <carousel-3d :autoplay="false" :autoplay-timeout="2400" style="margin: 0; margin-top: 32px;">
+                            <slide :index="0" style="border-radius: 24px; border-width: 0px;"></slide>
+                            <slide :index="0" style="border-radius: 24px; border-width: 0px;"></slide>
+                            <slide :index="0" style="border-radius: 24px; border-width: 2px;">
+                                <a href="#" style="padding: 8px; background: rgba(20,20,20,0.61); border-style: solid; border-right: 0; border-width: 1px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; position: absolute; right: 0; top: 16px;">
+                                    <i class="fas fa-ellipsis-v"></i></a>
+                                <a href="#">
+                                    <p style="text-shadow: rgba(24,24,24,0.69) 1px 1px 1px; position: absolute; width: 100%; text-align: center; height: 100%; top: 40%; bottom: 50%; font-size: 20pt; font-weight: bold; color: #fff;">Nome do Container</p>
+                                </a>
+                                <img src="https://res.cloudinary.com/ameo/image/upload/v1498843587/kTcPaQR_x77hor.jpg"/></slide>
+                            <slide :index="1" style="border-radius: 24px; border-width: 2px;">
+                                <a href="#" style="padding: 8px; background: rgba(20,20,20,0.61); border-style: solid; border-right: 0; border-width: 1px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; position: absolute; right: 0; top: 16px;">
+                                    <i class="fas fa-ellipsis-v"></i></a>
+                                <a href="#">
+                                    <p style="text-shadow: rgba(24,24,24,0.69) 1px 1px 1px; position: absolute; width: 100%; text-align: center; height: 100%; top: 40%; bottom: 50%; font-size: 20pt; font-weight: bold; color: #fff;">Nome do Container</p>
+                                </a>
+                                <img src="https://unsplash.it/400/300?image=456"/></slide>
+                        </carousel-3d>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<style type="text/css">
+
+*{margin:0;padding:0;border:0;list-style:none;outline:none;} /* Fazendo reset */
+body{font:normal 14px Tahoma, Arial, sans-serif;color:#333;} /* Fonte normal tamanho 14 tenho Tahoma como fonte primaria */
+a{text-decoration:none;} /* Links sem efeitos */
+
+.navTitle {
+  font-size:0;
+  transition: all 600ms;
+}
+
+#navbarsverse ul li a:hover .navTitle {
+	font-size:14px;
+	margin-left:14px;
+}
+</style>
+
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fontawesome.min.js"></script>
+</body>
+</html>
