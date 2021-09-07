@@ -2,6 +2,50 @@
 body{font:normal 14px Tahoma, Arial, sans-serif;color:#333;} /* Fonte normal tamanho 14 tenho Tahoma como fonte primaria */
 a{text-decoration:none;} /* Links sem efeitos */
 
+@font-face {
+    font-family: aclonicaa_regular;
+    src: url(/fonts/aclonicaa_regular.ttf);
+}
+@font-face {
+    font-family: amboqia_boriango;
+    src: url(/fonts/amboqia_boriango.ttf);
+}
+@font-face {
+    font-family: berkshire_swash;
+    src: url(/fonts/berkshire_swash.ttf);
+}
+@font-face {
+    font-family: grand_hotel_regular;
+    src: url(/fonts/grand_hotel_regular.ttf);
+}
+@font-face {
+    font-family: reem_kufi_regular;
+    src: url(/fonts/reem_kufi_regular.ttf);
+}
+@font-face {
+    font-family: trocchi_regular;
+    src: url(/fonts/trocchi_regular.ttf);
+}
+
+html{
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    font-family: reem_kufi_regular;
+}
+
+h1 {
+    color: #111;
+    font-family: Raleway, sans-serif !important;
+}
+
+ul li{
+    font-weight: bold;
+}
+
 .navTitle {
     font-size:0;
     transition: all 600ms;
