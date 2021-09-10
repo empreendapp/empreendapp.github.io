@@ -23,19 +23,19 @@
         }
 
         .pag-y {
-            height: 120vh;
+            /*height: 120vh;*/
         }
 
         .pag-y-96 {
-            height: 96.2vh;
+            /*height: 96.2vh;*/
         }
 
         .pag-y-86 {
-            height: 86.2vh;
+            /*height: 86.2vh;*/
         }
 
         .pag-y-70 {
-            height: 70vh;
+            /*height: 70vh;*/
         }
 
         #div3 {
