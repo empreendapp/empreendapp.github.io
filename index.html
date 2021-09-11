@@ -23,19 +23,19 @@
         }
 
         .pag-y {
-            /*height: 120vh;*/
+            height: 120vh;
         }
 
         .pag-y-96 {
-            /*height: 96.2vh;*/
+            height: 96.2vh;
         }
 
         .pag-y-86 {
-            /*height: 86.2vh;*/
+            height: 86.2vh;
         }
 
         .pag-y-70 {
-            /*height: 70vh;*/
+            height: 70vh;
         }
 
         #div3 {
@@ -51,7 +51,7 @@
         }
 
         #div0 {
-            background: rgba(203, 217, 224, 0.61);
+            background: rgba(204, 205, 211, 0.6);
         }
 
         header {
@@ -68,10 +68,10 @@
 </head>
 <body>
 
-<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom bg-dark">
-    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-        <img class="bi me-2 mx-3" width="40" height="32" aria-label="EMpreendApp"
-             src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg"/>
+<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 border-bottom" style="background: rgb(255,255,255)">
+    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none lead">
+        <img class="bi me-2 mx-3" width="42" height="42" aria-label="EmpreendApp"
+             src="imgs/empreendapp-logo.png"/> <strong>EmpreendApp</strong>
     </a>
 
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -87,8 +87,8 @@
 
 <div id="div0" class="pag-y pt-5">
     <div class="px-4 pt-5 text-center">
-        <img class="d-block mx-auto mb-5 mt-5" src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg"
-             alt="" width="72" height="57">
+        <img class="d-block mx-auto mb-5 mt-5" src="imgs/empreendapp-logo-bordas.png"
+             alt="" width="172" height="172">
         <h1 class="display-5 fw-bold">Centered hero</h1>
         <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
