@@ -23,19 +23,23 @@
         }
 
         .pag-y {
-            height: 120vh;
+            height: auto;
         }
 
         .pag-y-96 {
-            height: 96.2vh;
+            height: auto;
         }
 
         .pag-y-86 {
-            height: 86.2vh;
+            height: auto;
         }
 
         .pag-y-70 {
-            height: 70vh;
+            height: auto;
+        }
+
+        #div0 {
+            background: rgba(204, 205, 211, 0.6);
         }
 
         #div3 {
@@ -48,10 +52,6 @@
 
         #div5 {
             background: #ffffff;
-        }
-
-        #div0 {
-            background: rgba(204, 205, 211, 0.6);
         }
 
         header {
@@ -85,7 +85,7 @@
 </header>
 
 
-<div id="div0" class="pag-y pt-5">
+<div id="div0" class="pt-5" style="height: auto;">
     <div class="px-4 pt-5 text-center">
         <img class="d-block mx-auto mb-5 mt-5" src="imgs/empreendapp-logo-bordas.png"
              alt="" width="172" height="172">
@@ -98,6 +98,7 @@
                 <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
             </div>
+            <br><br><br><br><br><br><br><br>
         </div>
     </div>
 </div>
@@ -118,7 +119,7 @@
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
             </div>
         </div>
-    </div>
+    </div><br><br>
 </div>
 
 <div id="div4" class="pag-y-content pt-5 px-5">
@@ -171,11 +172,11 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </div><br><br>
 </div>
 
 <div class="pag-y px-5 pt-5 bg-white">
-    <div class="row p-4 m-5 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
             <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
             <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
@@ -190,7 +191,7 @@
             <img class="rounded-lg-3" src="https://getbootstrap.com/docs/5.1/examples/heroes/bootstrap-docs.png" alt=""
                  width="720">
         </div>
-    </div>
+    </div><br><br>
 </div>
 
 <div class="pag-y-content bg-white">
@@ -264,8 +265,8 @@
     </div>
 </div>
 
-<div id="div5" class="pag-y-96 pt-5">
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
+<div id="div5" class="pag-y-96 pt-5" style="margin: 0;">
+    <div class="px-4 pt-5 text-center border-bottom">
         <h1 class="display-4 fw-bold">Centered screenshot</h1>
         <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
@@ -312,7 +313,7 @@
     </div>
 </div>
 
-<div class="pag-y-70 bg-white">
+<div class="pag-y-70 bg-white"><br><br>
     <div class="container marketing pt-5">
         <!-- Three columns of text below the carousel -->
         <div class="row">
@@ -338,7 +339,7 @@
                 <p><a class="btn btn-secondary" href="#">View details »</a></p>
             </div>
         </div>
-    </div>
+    </div><br><br>
 </div>
 
 <div class="bg-dark text-secondary py-5 text-center">
