@@ -1,6 +1,28 @@
-*{margin:0;padding:0;border:0;list-style:none;outline:none;} /* Fazendo reset */
-body{font:normal 14px Tahoma, Arial, sans-serif;color:#333;} /* Fonte normal tamanho 14 tenho Tahoma como fonte primaria */
-a{text-decoration:none;} /* Links sem efeitos */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    list-style:none;
+    outline:none;
+} /* Fazendo reset */
+
+body{
+    font:normal 14px Tahoma, Arial, sans-serif;
+    color:#333;
+} /* Fonte normal tamanho 14 tenho Tahoma como fonte primaria */
+
+.center{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.w100{
+    width: 100%;
+}
+
+a{
+    text-decoration:none;
+} /* Links sem efeitos */
 
 @font-face {
     font-family: aclonicaa_regular;
