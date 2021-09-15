@@ -12,6 +12,7 @@
    position: fixed;
 }
 
+.bg .dotWrapper-1{
     top: 10%;
     left: 30%;
     -webkit-animation: flying 33s ease-in-out -7.5s infinite alternate;
