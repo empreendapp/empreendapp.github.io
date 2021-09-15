@@ -110,6 +110,12 @@ header {
     animation-timing-function: steps(12), step-end;
 }
 
+
+.carousel-item svg.svg-dimensoes, svg rect.rect-dimensoes{
+    height: 80vh;
+    width: 100%;
+} 
+
 @keyframes cursor {
     from, to {
         border-color: transparent;
