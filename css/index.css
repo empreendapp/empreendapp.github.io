@@ -35,21 +35,43 @@ header {
     width: 100%;
 }
 
-#div0 {
+#section1{
     /*background: rgba(204, 205, 211, 0.6);*/
     width: 100%;
 }
 
-#div3 {
+#section1 > div {
+    width: 100%;    
+}
+
+#section div h1{
+    width: 100%;
+    background-color: red;
+}
+
+#section div h1 div.typing-slider  p{
+    width: 100%;
+    font-size: 14px !important;
+}
+
+#section div h1 > div{
+    width: 100%;
+}
+
+#section2 {
     background: rebeccapurple;
 }
 
-#div4 {
+#section3 {
     background: rgba(56, 70, 121, 0.91);
 }
 
-#div5 {
+#section6 {
     background: #ffffff;
+}
+
+#section7 div:nth-child(2){
+    margin: 0 !important;
 }
 
 .card-cover {
@@ -132,6 +154,7 @@ header {
         width: 0;
     }
 }
+/*Tamanho da fonte está dando erro na responsividade*/
 @keyframes slide {
     33.3333333333% {
         font-size: 3rem;
