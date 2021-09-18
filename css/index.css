@@ -11,9 +11,20 @@ body {
 }
 
 header {
+    top: 0;
+    left: 0;
     position: fixed;
     width: 100%;
+    margin-bottom: 40px;
 }
+
+header div#botao-menu-mobile{
+    display: none;
+}
+
+header ul#menu-mobile{
+    display: none;
+} 
 
 .pag-y {
     height: auto;
@@ -44,17 +55,7 @@ header {
     width: 100%;    
 }
 
-#section div h1{
-    width: 100%;
-    background-color: red;
-}
-
-#section div h1 div.typing-slider  p{
-    width: 100%;
-    font-size: 14px !important;
-}
-
-#section div h1 > div{
+#section1 div h1{
     width: 100%;
 }
 
@@ -137,6 +138,14 @@ header {
     height: 80vh;
     width: 100%;
 } 
+
+section#section9 p{
+    padding: 0 15px;
+}
+
+footer div span{
+    padding: 0 15px;
+}
 
 @keyframes cursor {
     from, to {
