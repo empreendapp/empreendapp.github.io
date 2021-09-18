@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/bg-points-animate.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css" >
-
+    <link rel="stylesheet" href="./icons/fontawesome-free-5.15.4-web/css/all.css">;
+   
     <meta name="theme-color" content="#7952b3">    
 </head>
 <body style="background-color: white;">
@@ -245,38 +246,50 @@
         </div><!--bg-->
         
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 border-bottom bg-white" style="z-index: 2;">
-            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none lead">
+            <a id="logo" href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none lead">
                 <img class="bi me-2 mx-3" width="42" height="42" aria-label="EmpreendApp"
                     src="imgs/empreendapp-logo.png"/>
                 <strong>EmpreendApp</strong>
             </a>
-    
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <div class="clear"></div>
+
+            <ul id="menu-desktop"class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="#" class="nav-link px-2 link-primary">Quem somos</a></li>
                 <li><a href="#" class="nav-link px-2 link-secondary">Serviços</a></li>
                 <li><a href="#" class="nav-link px-2 link-secondary">Como funciona</a></li>
                 <li><a href="#" class="nav-link px-2 link-secondary">Projetos</a></li>
                 <li><a href="#" class="nav-link px-2 link-secondary">Contatos</a></li>
             </ul>
-            <div class="col-md-3 text-end" style="margin-right: 16px;">
-                <button type="button" class="btn btn-primary">Solicitar Orçamento</button>
+                
+            <div id="botao-menu-mobile">
+                <i id="icone-menu" class="fas fa-bars"></i>
+            </div>
+
+
+            <ul id="menu-mobile" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-primary">Quem somos</a></li>
+                <li><a href="#" class="nav-link px-2 link-secondary">Serviços</a></li>
+                <li><a href="#" class="nav-link px-2 link-secondary">Como funciona</a></li>
+                <li><a href="#" class="nav-link px-2 link-secondary">Projetos</a></li>
+                <li><a href="#" class="nav-link px-2 link-secondary">Contatos</a></li>
+            </ul>
+
+            <div id="contianer-button" class="col-md-3 text-end" style="margin-right: 16px;">
+                <button id="btnSolicitarOrcamento" type="button" class="btn btn-primary">Solicitar Orçamento</button>
             </div>
             <div class="col-md-3 text-end" style=""></div>
         </header>
-        <div style="width: 100%; height: 40px;"></div>
+        <div id="headerEspacoSection1" style="width: 100%; height: 40px;"></div>
 
         <section id="section1" class="pt-5" style="height: auto; width: 100%; margin: 0px; background-color: white;">
-            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1">
-                        <!--Efeito no Titulo -->
-                        <!--
                         <div class="typing-slider" style="text-align: left; padding: 0; margin: 0;">
                             <p style="text-align: left; padding: 0; margin: 0;">Aqui você encontra</p>
                             <p style="text-align: left; padding: 0; margin: 0;">Aqui você inova</p>
                             <p style="text-align: left; padding: 0; margin: 0;">Estaremos com você</p>
                         </div>
-                        -->
                     </h1>
                     <p class="lead">A solução dos seus problemas forjada pelas mãos do futuro.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
@@ -287,11 +300,9 @@
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
                     <img src="imgs/app-smartphone.png" alt="" width="450">
                 </div>
-                <div style="width: 100%; height: 120px;"></div>
-                -->
+                <div style="width: 100%; height: 120px;"></div>;
             </div>
         </section><!--section1-->
-
 
         <section id="section2" class="pag-y-86 px-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -632,6 +643,8 @@
             </ul>
         </footer>
         <script src="js/bootstrap.bundle.js"></script>
+        <script src="./js/jquery-slim.min.js"></script>
+        <script src="/js/menujs.js"></script>
     </div><!--center-->
 </body>
 </html>
