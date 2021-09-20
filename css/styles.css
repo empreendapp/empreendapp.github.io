@@ -72,7 +72,6 @@ body{
 }
 
 
-
 h1 {
     color: #111;
     font-family: Raleway, sans-serif !important;
@@ -179,8 +178,8 @@ footer div span{
         margin: 0 !important;
         padding: 0 !important;
     }
-
     header button#btnSolicitarOrcamento {
+        display: none;
         margin-left: calc(50% - 78px);
     }
 
