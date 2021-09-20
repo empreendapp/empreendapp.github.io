@@ -21,6 +21,14 @@ body{
     width: 100%;
 }
 
+.left{
+    float: left;
+}
+
+.right{
+    float:right;
+}
+
 .clear{
     clear:both;
 }
@@ -91,9 +99,6 @@ footer div span{
 }
 
 
-
-
-
 @media screen and (max-width: 820px) {
     header{
         position: absolute;
@@ -131,33 +136,32 @@ footer div span{
     } 
 
 }
-
-@media screen and (max-width: 768px){
-
+@media screen and (width: 768px){
     header a#logo{
        margin-left: calc(50% - 96px) !important;
     }
-    
+}
+
+@media screen and (max-width: 768px){
+
+    header div#botao-menu-mobile{
+        display: block !important;
+        width:32px !important;
+        height: 32px !important;
+        font-size: 22px;
+        position: absolute;
+        top: 10px;
+        right:0;
+    }
+
     header ul#menu-desktop{
         display:none;
     }
 
     header ul#menu-mobile{
-        display: block !important;
         width: 100%;
     }
     
-    header div#-icone-menu-mobile{
-        width: 32px !important;
-        height: 32px;
-        background-color: red;
-    }
-
-    header div#botao-menu-mobile i{
-        width: 32px !important;
-        height: 32px !important;
-        font-size: 20px;
-    }
 
     header div#botao-menu-mobile i{
         width: 100%;
