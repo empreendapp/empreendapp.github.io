@@ -286,9 +286,8 @@
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1">
                         <div class="typing-slider" style="text-align: left; padding: 0; margin: 0;">
-                            <p style="text-align: left; padding: 0; margin: 0;">Aqui você encontra</p>
-                            <p style="text-align: left; padding: 0; margin: 0;">Aqui você inova</p>
-                            <p style="text-align: left; padding: 0; margin: 0;">Estaremos com você</p>
+                            <p>Empresa de Software</p>
+                            <p>Desenvolvimento aplicativos para expandir o seu negócio, dando suporte necessário tirando a sua ideia do papel.</p>
                         </div>
                     </h1>
                     <p class="lead">A solução dos seus problemas forjada pelas mãos do futuro.</p>
@@ -306,16 +305,37 @@
 
         <section id="section2" class="pag-y-86 px-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="https://getbootstrap.com/docs/5.1/examples/heroes/bootstrap-themes.png"
-                        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
-                        popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-                        extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <!--<div class="col-10 col-sm-8 col-lg-6">
+                </div>-->
+                <div id="conteudo-section2" class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Compromisso e qualidade</h1>
+                    <p class="lead">Trabalhamos com praticidade, agilidade, e segurança de dados.</p>
+
+                    <!--aliar os 4 box-icon-single e centralizar seus conteúdos-->
+                   <div class="container-icons">
+                        <div class="box-icon-single left">
+                            <i class="far fa-calendar-check"></i>
+                            <p>Prazo de entrega</p>
+                        </div><!--box-icon-single-->
+
+                        <div class="box-icon-single right">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>Nível de Segurança</p>
+                        </div><!--box-icon-single-->
+
+                        <div class="clear"></div>
+                        <div class="box-icon-single left">
+                            <i class="fas fa-poll"></i><p>Suporte de pós venda</p>
+                        </div><!--box-icon-single-->
+                        
+                        <div class="box-icon-single right">
+                            <i class="fas fa-project-diagram"></i><p>Código limpo e estruturado</p>
+                        </div><!--box-icon-single-->
+                   </div><!--container-icons-->
+                   <div class="clear"></div>
+                    
+                    
+                    <div id="container-buttons"class="d-grid gap-2 d-md-flex justify-content-md-start">
                         <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
                         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
                     </div>
@@ -323,6 +343,8 @@
             </div>
             <br><br>
         </section><!--section2-->
+
+  
 
         <section id="section3" class="pag-y-content pt-5 px-5">
             <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
@@ -357,7 +379,7 @@
     
                         <div class="container">
                             <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
+                                <h1>Publicação de app criados</h1>
                                 <p>Some representative placeholder content for the second slide of the carousel.</p>
                                 <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
                             </div>
@@ -393,7 +415,7 @@
         <section id="section4" class="pag-y px-5 pt-5 bg-white">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
+                    <h1 class="display-4 fw-bold lh-1">Citação e Vídeo</h1>
                     <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
                         popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
                         extensive prebuilt components, and powerful JavaScript plugins.</p>
@@ -409,17 +431,18 @@
             </div>
             <br><br>
         </section><!--section4-->
-
+       
         <section id="section5" class="pag-y-content bg-white">
             <div class="container px-4 py-5" id="custom-cards">
                 <h2 class="pb-2 border-bottom">Custom cards</h2>
     
                 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                    <div class="col">
+                    <div class="col" id="1">
                         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                             style="background-image: url('imgs/unsplash-photo-1.png');">
                             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                                <h2 class="cardCustomOffH2 pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Criação de aplicativos</h2>
+                                <p class="cardCustomOffP">Aqui a criação de seu aplicativo e completa para pessoas físicas, Startups, pequenas e grandes empresas.</p>
                                 <ul class="d-flex list-unstyled mt-auto">
                                     <li class="me-auto">
                                         <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
@@ -442,12 +465,12 @@
                         </div>
                     </div>
     
-                    <div class="col">
+                    <div class="col" id="2">
                         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                             style="background-image: url('imgs/unsplash-photo-2.png');">
                             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple
-                                    lines</h2>
+                                <h2 class="cardCustomOffH2 pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Desenvolvimento de sites</h2>
+                                <p class="cardCustomOffP">o site da sua empresa ou aplicativo deve ser costumizado de acordo com suas necessidades.</p>
                                 <ul class="d-flex list-unstyled mt-auto">
                                     <li class="me-auto">
                                         <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
@@ -470,11 +493,12 @@
                         </div>
                     </div>
     
-                    <div class="col">
+                    <div class="col" id="3">
                         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                             style="background-image: url('imgs/unsplash-photo-3.png');">
                             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                                <h2 class="cardCustomOffH2 pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                                <p class="cardCustomOffP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi hic, praesentium voluptatum accusantium.</p>
                                 <ul class="d-flex list-unstyled mt-auto">
                                     <li class="me-auto">
                                         <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
@@ -499,7 +523,7 @@
                 </div>
             </div>
         </section><!--section5-->
-    
+
         <section id="section6" class="pag-y-96 pt-5" style="margin: 0;">
             <div class="px-4 pt-5 text-center border-bottom">
                 <h1 class="display-4 fw-bold">Centered screenshot</h1>
@@ -569,6 +593,7 @@
                             first column.</p>
                         <p><a class="btn btn-secondary" href="#">View details »</a></p>
                     </div><!-- /.col-lg-4 -->
+
                     <div class="col-lg-4">
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
@@ -582,6 +607,48 @@
                             column.</p>
                         <p><a class="btn btn-secondary" href="#">View details »</a></p>
                     </div><!-- /.col-lg-4 -->
+
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                            preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#777"></rect>
+                            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+                        </svg>
+    
+                        <h2>Heading</h2>
+                        <p>And lastly this, the third column of representative placeholder content.</p>
+                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                            preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#777"></rect>
+                            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+                        </svg>
+    
+                        <h2>Heading</h2>
+                        <p>Some representative placeholder content for the three columns of text below the carousel. This is the
+                            first column.</p>
+                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                            preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#777"></rect>
+                            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+                        </svg>
+    
+                        <h2>Heading</h2>
+                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
+                            column.</p>
+                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    
                     <div class="col-lg-4">
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
@@ -644,7 +711,7 @@
         </footer>
         <script src="js/bootstrap.bundle.js"></script>
         <script src="./js/jquery.js"></script>
-        <script src="./js/menujs.js"></script>
+        <script src="./js/scripts.js"></script>
     </div><!--center-->
 </body>
 </html>

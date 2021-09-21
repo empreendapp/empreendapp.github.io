@@ -2,6 +2,25 @@
     padding: 0;
     margin: 0;
 }
+.cardCustomOnH2{
+    opacity: 0;
+}
+ 
+ .cardCustomOnP{
+    display: block;
+    font-size:26px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+ 
+ .cardCustomOffH2{
+    opacity:1;
+}
+ 
+ .cardCustomOffP{
+    display: none;
+}
 
 body {
     background-size: cover;
@@ -59,19 +78,65 @@ header ul#menu-mobile{
     width: 100%;
 }
 
+#section1 h1 p{
+    width: 100% !important;
+    word-break: normal !important;
+}
+
+#section1 div h1 div p:nth-child(1){
+    font-size: 24px;
+}
+
+#section1 div h1 div p:nth-child(2){
+   width: 40%;
+}
+
 #section2 {
     background: rebeccapurple;
 }
 
+#section2 #conteudo-section2{
+    margin: 0 auto;
+}
+#section2 #conteudo-section2 h1{
+    text-align: center;
+}
+#section2 #conteudo-section2 {
+    text-align: center;
+}
+#section2 .container-icons{
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 60px;
+}
+
+#section2 .container-icons .box-icon-single{
+    width: 40%; 
+    padding: 20px;;
+    display: block;
+    margin-top:40px !important;
+
+}
+
+.box-icon-single i{
+    font-size: calc(1.425rem + 1.1vw);
+}
+
+.box-icon-single p{
+    margin-top:10px;
+    font-size: 20px;
+}
 #section3 {
     background: rgba(56, 70, 121, 0.91);
 }
 
 #section6 {
+    
     background: #ffffff;
 }
 
 #section7 div:nth-child(2){
+   
     margin: 0 !important;
 }
 
@@ -86,7 +151,6 @@ header ul#menu-mobile{
 .typing-slider {
     font-family: Consolas, monospace;
     font-weight: bold;
-    white-space: nowrap;
 }
 
 .typing-slider p {

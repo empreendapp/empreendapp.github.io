@@ -20,7 +20,9 @@ body{
 .w100{
     width: 100%;
 }
-
+.w25{
+    width: 25%;
+}
 .left{
     float: left;
 }
@@ -191,8 +193,25 @@ footer div span{
 @media screen and (max-width: 600px){
     
     #section1 div h1 div.typing-slider  p{
-         font-size: 20px !important;
-         display: block;
+        font-size: 20px !important;
+        display: block;
     }
-     
+
+    #section2 .box-icon-single{
+        width: 100% !important;
+        float: none;
+    }
+
+    #section2 .box-icon-single i{
+        float: left;
+    }
+
+    #section2 .box-icon-single p{
+        text-indent: 10px;
+        display: inline;
+   } 
+
+    #container-buttons{
+        margin-top: 35px;
+    }
  }
